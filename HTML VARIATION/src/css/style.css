@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Reem+Kufi&display=swap");
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+.font-tittle {
+  font-family: "Georgia", Times, "Times New Roman", serif;
+  font-weight: 300; }
+
+.color__primary {
+  color: #593073; }
+
+.color__secondary {
+  color: #e3057c; }
+
+.card {
+  border: 0;
+  border-radius: 0rem !important; }
+  .card.shadow__primary {
+    box-shadow: 4px 0px 38px rgba(86, 40, 119, 0.3), -10px 10px 0px #593073; }
+  .card.shadow__secondary {
+    box-shadow: 4px 0px 38px rgba(227, 5, 124, 0.3), -10px 10px 0px #e3057c; }
+  .card.shadow__primary--soft {
+    box-shadow: 4px 0px 38px rgba(86, 40, 119, 0.3); }
+  .card.shadow__secondary--soft {
+    box-shadow: 4px 0px 38px rgba(227, 5, 124, 0.3); }
+  .card .card-body img {
+    max-height: 42px; }
+  .card .card-footer {
+    padding: 0.75rem 1.25rem;
+    background-color: transparent;
+    border-top: 0; }
+
+button:focus {
+  outline: 0; }
+
+.btn {
+  padding: 1rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 8px; }
+  .btn.btn-lg {
+    padding: 1rem 2rem; }
+
+.btn__primary {
+  color: white;
+  background-color: #593073;
+  border-color: #593073; }
+  .btn__primary:hover {
+    background-color: white;
+    border-color: #593073;
+    color: #593073; }
+  .btn__primary--outline {
+    background-color: white;
+    border-color: #593073;
+    color: #593073; }
+    .btn__primary--outline:hover {
+      background-color: #e8e5e8;
+      border-color: #593073;
+      color: #593073; }
+  .btn__primary--icon {
+    background-image: url(../assets/button-pattern.svg);
+    background-size: 60px 57px;
+    background-position: top right;
+    background-repeat: no-repeat;
+    padding-right: 6rem; }
+
+.btn__secondary {
+  color: white;
+  background-color: #e3057c;
+  border-color: #e3057c; }
+  .btn__secondary:hover {
+    background-color: white;
+    border-color: #e3057c;
+    color: #e3057c; }
+
+.carousel-indicators {
+  position: relative; }
+  .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-top: 0px solid transparent;
+    border-bottom: 0px solid transparent;
+    border-radius: 50px;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -o-border-radius: 50px;
+    -ms-border-radius: 50px;
+    background-color: #593073; }
+
+.card__testimonial .content {
+  padding: 1rem;
+  cursor: pointer; }
+
+.card__testimonial .testimonial {
+  padding: 1rem 2rem;
+  position: relative; }
+
+.card__testimonial .fa-quote-left {
+  position: absolute;
+  top: -15px;
+  left: -6px;
+  font-size: 2rem;
+  color: #593073; }
+
+.card__testimonial .fa-quote-right {
+  position: absolute;
+  bottom: -15px;
+  right: -6px;
+  font-size: 2rem;
+  color: #593073; }
+
+.card__testimonial .employee {
+  margin-bottom: 2rem;
+  padding-right: 3rem;
+  padding-top: 3rem; }
+
+@media (max-width: 767px) {
+  .card__testimonial {
+    padding: 80px 50px;
+    margin: 50px 10px; }
+  .carousel-indicators {
+    bottom: -80px; } }
+
+@media (max-width: 420px) {
+  .card__testimonial {
+    padding: 40px 20px; }
+  .carousel-indicators {
+    bottom: -45px; }
+  .employee {
+    margin-bottom: 40px;
+    padding-left: 15px; } }
+
+body {
+  background: white;
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: 300; }
+
+nav {
+  box-shadow: 0px 6px 25px -6px rgba(55, 55, 60, 0.25);
+  padding: 0 1rem; }
+  nav .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255,102,203, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); }
+  @media screen and (min-width: 992px) {
+    nav .navbar-expand-lg .navbar-nav .nav-link {
+      padding-right: 2rem;
+      padding-left: 2rem; } }
+
+.bg__hero {
+  background-image: url(../assets/backdrop-right.svg);
+  background-repeat: no-repeat;
+  background-position: right bottom; }
+
+.bg__sec02 {
+  background-image: url(../assets/backdrop-left.svg);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: 500px; }
+
+.bg__primary {
+  background-color: #593073; }
+
+.bg__secondary {
+  background-color: #e3057c; }
+
+.bg__tertiary {
+  background-color: #df88c0; }
+
+footer p {
+  padding: 0 1rem; }
+
+footer .social-networks img {
+  padding: 0 0.2rem; }
+
+@media screen and (min-width: 768px) {
+  footer p {
+    padding: 0 2rem; } }
+
+@media screen and (min-width: 992px) {
+  footer p {
+    padding: 0 5rem; }
+  footer .social-networks img {
+    padding: 0 1rem; } }

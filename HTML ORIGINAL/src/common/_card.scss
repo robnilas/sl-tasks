@@ -1,0 +1,33 @@
+.card {
+    border: 0;
+    border-radius: 0rem !important;
+
+    &.shadow__primary {
+        box-shadow: 4px 0px 38px rgba(86, 40, 119, 0.3), -10px 10px 0px map-get($colors, theme-color1)
+    }
+
+    &.shadow__secondary {
+        box-shadow: 4px 0px 38px rgba(227, 5, 124, 0.3),
+            -10px 10px 0px map-get($colors, theme-color2)
+    }
+
+    &.shadow__primary--soft {
+        box-shadow: 4px 0px 38px rgba(86, 40, 119, 0.3)
+    }
+
+    &.shadow__secondary--soft {
+        box-shadow: 4px 0px 38px rgba(227, 5, 124, 0.3)
+    }
+
+    & .card-body {
+        & img {
+            max-height: 42px;
+        }
+    }
+
+    & .card-footer {
+        padding: 0.75rem 1.25rem;
+        background-color: transparent;
+        border-top: 0;
+    }
+}

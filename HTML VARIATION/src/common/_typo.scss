@@ -1,0 +1,31 @@
+// Google Fonts
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;800&family=Reem+Kufi&display=swap');
+
+// Font Variables
+$font-tittle: 'Georgia',
+Times,
+'Times New Roman',
+serif;
+$font-default: 'Helvetica',
+'Arial',
+sans-serif;
+;
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+.font-tittle {
+    font-family: $font-tittle;
+    font-weight: 300;
+}
+
+.color__primary {
+    color: map-get($colors, theme-color1);
+}
+
+.color__secondary {
+    color: map-get($colors, theme-color2);
+}
